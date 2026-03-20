@@ -1,0 +1,42 @@
+nav {
+  width: 10rem;
+  padding: 1rem;
+  height: calc(100vh - 5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  background-color: var(--bg-main);
+  font-family: Arial, sans-serif;
+}
+
+/* primeira seção (links principais) */
+nav section:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+/* links */
+nav a {
+  width: 94%;
+  color: var(--text-main);           
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.3rem 0.4rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* hover nos links */
+nav a:hover {
+  background-color: var(--bg-main);
+  color: var(--font-main);              
+}
+
+/* configurações
+nav section:last-child a {
+  color: #8f8f8f;              
+} */
