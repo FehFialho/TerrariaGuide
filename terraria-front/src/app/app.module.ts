@@ -9,6 +9,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { MainPageComponent } from './features/main-page/main-page.component';
+import { CardComponent } from './shared/card/card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MainPageComponent } from './features/main-page/main-page.component';
     HeaderComponent,
     NavComponent,
     FooterComponent,
-    MainPageComponent
+    MainPageComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
